@@ -1,0 +1,5 @@
+./complex_auto/motives_extractor/jku_csvs/mazurka24-4-poly.csv
+./complex_auto/motives_extractor/jku_csvs/silverswan-poly.csv
+./complex_auto/motives_extractor/jku_csvs/sonata01-3-poly.csv
+./complex_auto/motives_extractor/jku_csvs/sonata04-2-poly.csv
+./complex_auto/motives_extractor/jku_csvs/wtc2f20-poly.csv

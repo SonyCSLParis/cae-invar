@@ -1,0 +1,5 @@
+./complex_auto/motives_extractor/jku_input/mazurka24-4-poly.mp3
+./complex_auto/motives_extractor/jku_input/silverswan-poly.mp3
+./complex_auto/motives_extractor/jku_input/sonata01-3-poly.mp3
+./complex_auto/motives_extractor/jku_input/sonata04-2-poly.mp3
+./complex_auto/motives_extractor/jku_input/wtc2f20-poly.mp3
