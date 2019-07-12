@@ -88,8 +88,8 @@ def create_data_loaders(data, data_eval, data_test, length_ngram, \
 def create_data_sig(block_size=5000, refresh_cache=True):
     with open(args.input_files, 'r') as f:
         files = f.readlines()
-    with open(args.input_files, 'r') as f:
-        files_eval = f.readlines()
+
+    files_eval = files
 
     train_loader = torch.utils.data.DataLoader(
         Signal(files, trg_shift=0,
@@ -102,8 +102,7 @@ def create_data_sig(block_size=5000, refresh_cache=True):
     eval_loader = torch.utils.data.DataLoader(
         Signal(files_eval, trg_shift=0,
                block_size=block_size,
-               cache_fn=f"{args.cache_dir}/signal_cache_eval.pyc.bz",
-               refresh_cache=refresh_cache,
+               refresh_cache=False,
                random_shift=args.shifts[0],
                samples_epoch=args.samples_epoch),
         batch_size=args.batch_size, shuffle=True, **kwargs)
@@ -351,7 +350,7 @@ if __name__ == '__main__':
         in_size = 28 * 28
         args.dropout = .5
         args.n_bases = 512
-        data = load_pyc_bz("./data/mnist/mnist_rot.pyc.bz")
+        data = load_pyc_bz("./data/mnist_rot.pyc.bz")
         np.random.shuffle(data)
         data = np.array(data)
         nr_eval = len(data) // 5
