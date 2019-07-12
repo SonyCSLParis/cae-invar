@@ -1,6 +1,6 @@
 
 
-# Learning Complex Basis Functions for Invariant Signal Representations with the Complex Autoencoder
+# Complex Autoencoder for Learning Invariant Signal Representations
 
 PyTorch implementation of the Complex Autoencoder proposed in 
 
