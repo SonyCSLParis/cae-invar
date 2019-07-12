@@ -1,6 +1,6 @@
 
 
-# Learning Complex Basis Functions for Invariant Signal Representations
+## Complex Autoencoder for Learning Invariant Signal Representations
 
 PyTorch implementation of the Complex Autoencoder proposed in 
 
@@ -40,7 +40,7 @@ To install (update) the requirements using **pip**, run:
   pip install -r requirements.txt
 ```
 
-# Audio Experiments (CQT)
+## Audio Experiments (CQT)
 ### Quick Start ###
 
 1. **Edit the text file** with name *filelist_audio.txt*, which lists 
@@ -126,7 +126,7 @@ together with `extract_motives.py` is currently only implemented for the
 available. In order to test the full pipeline, see Section
 [Quick Start](#quick-start).
 
-# 1D Signal Experiment
+## 1D Signal Experiment
 
 ### Training for Audio (Time Domain)
 
@@ -149,7 +149,7 @@ python train.py run_keyword filelist_signal.txt config_signal1D.ini
 All results can be found in `output/run_keyword`.
 
 
-# Rotated MNIST Experiment
+## Rotated MNIST Experiment
 
 ### Training for Rotated MNIST
 
