@@ -158,12 +158,9 @@ All results can be found in `output/run_keyword`.
 This experiment yields basis functions representing the complex Eigenvectors 
 of *rotation*.
 
-1. **Create a text file** (e.g. filelist_signal.txt) which lists audio files
-to convert (see Section [Quick Start](#quick-start)).
-Here, **only one audio** file is sufficient (when all frequencies are present).
+1. **Download the rotated MNIST dataset** using [this link](http://www.stefanlattner.at/data/mnist_rot.pyc.bz) and place it in the data folder: `./data/mnist_rot.pyc.bz`.
 
-2. **Start training** using the following command (no filelist needed)
-(choose a *run_keyword*, add `--help` to list all parameters):
+2. **Start training** using the following command (choose a *run_keyword*, add `--help` to list all parameters):
 
 ```
 python train.py run_keyword no_filelist config_mnist.ini
