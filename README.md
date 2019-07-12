@@ -43,8 +43,7 @@ To install (update) the requirements using **pip**, run:
 ## Audio Experiments (CQT)
 ### Quick Start ###
 
-1. **Edit the text file** with name *filelist_audio.txt*, which lists 
-audio files to use for training, e.g.:
+1. **Edit the text file** with name *filelist_audio.txt*, or keep the default entries. The file should be in the form
 
 *filelist_audio.txt:*
 ```
