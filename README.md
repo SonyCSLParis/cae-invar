@@ -4,7 +4,7 @@
 
 PyTorch implementation of the Complex Autoencoder proposed in 
 
-*Learning Complex Basis Functions for Invariant Representations of Audio*<br/>
+*Learning Complex Basis Functions for Invariant Representations of Audio* [[pdf]](http://www.stefanlattner.at/data/paper_complex_auto_arxiv.pdf)<br/>
 Stefan Lattner¹, Andreas Arzt², Monika Dörfler³, 2019<br/>
 
 *¹Sony CSL Paris*<br/>
