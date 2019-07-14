@@ -4,7 +4,7 @@
 
 PyTorch implementation of the Complex Autoencoder proposed in 
 
-*Learning Complex Basis Functions for Invariant Representations of Audio*<br/>
+*Learning Complex Basis Functions for Invariant Representations of Audio* [[pdf]](http://www.stefanlattner.at/data/paper_complex_auto_arxiv.pdf)<br/>
 Stefan Lattner¹, Andreas Arzt², Monika Dörfler³, 2019<br/>
 
 *¹Sony CSL Paris*<br/>
@@ -43,8 +43,9 @@ To install (update) the requirements using **pip**, run:
 ## Audio Experiments (CQT)
 ### Quick Start ###
 
-1. **Edit the text file** with name *filelist_audio.txt*, which lists 
-audio files to use for training, e.g.:
+1. **Edit the text file** with name *filelist_audio.txt*, or keep the 
+default entries (not recommended - too little data). The file should be in the 
+form
 
 *filelist_audio.txt:*
 ```
@@ -52,8 +53,8 @@ data/audio1.wav
 data/audio2.wav
 data/audio3.wav
 ```
-Save the file in the root folder of the project. We recommend ~1 hour of music 
-for training with the default parameters.
+Save the file in the root folder of the project. To reproduce the paper 
+results, we recommend ~3 hours of polyphonic piano music [[download]](https://www.tsi.telecom-paristech.fr/aao/en/2010/07/08/maps-database-a-piano-database-for-multipitch-estimation-and-automatic-transcription-of-music/).
 
 2. **Run all steps for repeated section discovery** (training, conversion, 
 motive extraction, evaluation) using the following command (choose a 
