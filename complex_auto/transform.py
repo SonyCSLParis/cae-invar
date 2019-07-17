@@ -2,6 +2,8 @@
 Created on Sep 5, 2014
 
 @author: Carlos E. Cancino Chacon
+
+Austrian Research Institute for Artificial Intelligence (OFAI)
 '''
 import numpy as np
 from sklearn.decomposition import PCA

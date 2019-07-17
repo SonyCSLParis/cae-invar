@@ -1,8 +1,12 @@
 # -*- coding: utf-8 -*-
+
 """
-Created on 11402.17
+Created on July 05, 2019
 
 @author: Stefan Lattner
+
+Sony CSL Paris, France
+
 """
 
 from configobj import ConfigObj, flatten_errors, ConfigObjError

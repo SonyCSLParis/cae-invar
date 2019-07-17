@@ -24,6 +24,13 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+Adapted by Stefan Lattner
+
+On July 05, 2019
+
+Sony CSL Paris, France
+
 """
 from complex_auto.motives_extractor import utils, extractor
 from complex_auto.util import read_file

@@ -1,3 +1,13 @@
+
+"""
+Created on July 05, 2019
+
+@author: Stefan Lattner
+
+Sony CSL Paris, France
+
+"""
+
 import os
 import math
 import torch

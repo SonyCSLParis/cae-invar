@@ -1,11 +1,10 @@
-"""
-Created on April 13, 2018
 
-@author: Stefan Lattner & Maarten Grachten
+"""
+Created on July 05, 2019
+
+@author: Stefan Lattner
 
 Sony CSL Paris, France
-Institute for Computational Perception, Johannes Kepler University, Linz
-Austrian Research Institute for Artificial Intelligence, Vienna
 
 """
 

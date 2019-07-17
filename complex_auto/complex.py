@@ -1,4 +1,13 @@
 
+"""
+Created on July 05, 2019
+
+@author: Stefan Lattner
+
+Sony CSL Paris, France
+
+"""
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F

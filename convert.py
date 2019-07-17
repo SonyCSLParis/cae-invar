@@ -1,12 +1,10 @@
 #!/usr/bin/env python
 """
-Created on April 13, 2018
+Created on July 05, 2019
 
 @author: Stefan Lattner
 
 Sony CSL Paris, France
-Institute for Computational Perception, Johannes Kepler University, Linz
-Austrian Research Institute for Artificial Intelligence, Vienna
 
 """
 

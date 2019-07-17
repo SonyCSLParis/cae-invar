@@ -1,6 +1,11 @@
 #!/usr/bin/env python
 """
 This script parses the ground truth annotations (csv) into the MIREX format.
+
+Adapted on July 05, 2019
+by Stefan Lattner
+
+Sony CSL Paris, France
 """
 
 __author__ = "Oriol Nieto"

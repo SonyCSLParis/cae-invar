@@ -16,6 +16,11 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+Adapted on July 05, 2019
+by Stefan Lattner
+
+Sony CSL Paris, France
 """
 
 import pickle as cPickle
