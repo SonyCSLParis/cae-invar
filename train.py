@@ -346,8 +346,6 @@ if __name__ == '__main__':
         in_size = args.n_bins * args.length_ngram
     elif args.data_type == 'mnist':
         in_size = 28 * 28
-        args.dropout = .5
-        args.n_bases = 512
         data = load_pyc_bz("./data/mnist_rot.pyc.bz")
         np.random.shuffle(data)
         data = np.array(data)
