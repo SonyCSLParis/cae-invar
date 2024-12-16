@@ -12,28 +12,23 @@ Under the following terms:
 
 No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
 
-To view a copy of this license, visit [https://creativecommons.org/licenses/by-nc/4.0/](https://creativecommons.org/licenses/by-nc/4.0/).
+To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/4.0/
 
----
-
-### Addendum for Software Applications
+Addendum for Software Applications
 
 This Creative Commons license applies to the source code and any associated documentation provided in this repository. However, please note the following clarifications to ensure compatibility with software development tools and platforms such as GitHub:
 
-1. **Permitted Actions:** You may:
-   - Clone, fork, and modify this repository for **non-commercial purposes**.
+1. Permitted Actions: You may:
+   - Clone, fork, and modify this repository for non-commercial purposes.
    - Contribute changes back to this repository via pull requests or other collaborative means, as long as the use remains non-commercial.
 
-2. **Use in Derived Software:**
-   - Any software or projects derived from this code must also comply with the **non-commercial** restriction.
+2. Use in Derived Software:
+   - Any software or projects derived from this code must also comply with the non-commercial restriction.
    - Derivative works must include attribution to the original repository.
 
-3. **Tool Compatibility:**
+3. Tool Compatibility:
    - Activities that are inherent to working with software repositories on GitHub, such as automated testing or CI/CD pipelines, are considered permissible under this license, provided they adhere to the non-commercial restriction.
 
----
+Notes for Contributors
 
-### Notes for Contributors
-
-By contributing to this project, you agree to license your contributions under the same **CC BY-NC 4.0** terms.
-
+By contributing to this project, you agree to license your contributions under the same CC BY-NC 4.0 terms.
